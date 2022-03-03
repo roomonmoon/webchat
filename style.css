@@ -30,7 +30,7 @@ ul, li {
 }
 
 .side {
-    height: 100%;
+    height: 100vh;
     width: 71.5px;
 
     background: #000000;
@@ -175,5 +175,41 @@ ul, li {
 
 .bar__list__channel:hover {
     background-color: #919191;
-    color: #fff;
+    color: #FFFFFF;
+}
+.bar__friends__menu {
+    display: flex;
+}
+.bar__friends__header {
+    
+    margin-top: 10px;
+}
+
+
+
+.bar__friend {
+    padding: 20px;
+
+    display: block;
+    align-items: center;
+}
+.bar__friend__a {
+    display: inline-block;
+}
+.bar__friends__avatar {
+    border-radius: 5px;
+    display: flex;
+}
+.bar__friends__name {
+    padding-left: 10px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    
+    
+    color: #B5B5B5;
+    
 }
