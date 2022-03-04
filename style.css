@@ -30,7 +30,8 @@ ul, li {
 }
 
 .side {
-    height: 100vh;
+    min-height: 100vh;
+    max-height: 100%;
     width: 71.5px;
 
     background: #000000;
@@ -60,9 +61,11 @@ ul, li {
 }
 
 .side__channels {
-    margin: 10px auto;
+    /* margin: 1px auto; */
+    min-height: 90%;
     display: flex;
-    flex-direction: column;position: relative;
+    flex-direction: column;
+    position: relative;
     align-items: center;
 }
 .side__logo {
@@ -85,7 +88,7 @@ ul, li {
     justify-content: center;
 }
 .side__add__plus {
-    padding: 15px;
+    padding: 13px;
 
     line-height: 15px ;
     font-size: 24px;
@@ -104,7 +107,8 @@ ul, li {
 
 .bar {
     float: left;
-    height: 100vh;
+    min-height: 100vh;
+    max-height: 100%;
     width: 261.5px;
     background-image: url("images/active_bg.png");
     background-size: cover;
@@ -189,19 +193,17 @@ ul, li {
 
 .bar__friend {
     padding: 20px;
-
-    display: block;
+    width: 100%;
+    display: flex;
     align-items: center;
-}
-.bar__friend__a {
-    display: inline-block;
 }
 .bar__friends__avatar {
     border-radius: 5px;
-    display: flex;
+    display: inline-block;
 }
 .bar__friends__name {
     padding-left: 10px;
+    display: inline-block;
 
     font-family: Lato;
     font-style: normal;
