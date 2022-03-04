@@ -17,7 +17,11 @@ ul, li {
     padding: 0px;
     list-style-type: none;
 }
-
+body {
+    background-image: url("/images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 .page {
     display: flex;
@@ -183,27 +187,27 @@ ul, li {
 }
 .bar__friends__menu {
     display: flex;
+    flex-direction: column;
 }
 .bar__friends__header {
-    
     margin-top: 10px;
 }
 
-
-
 .bar__friend {
-    padding: 20px;
-    width: 100%;
-    display: flex;
-    align-items: center;
+    margin-top: 10px;
 }
+.bar__friend:hover {
+    background-color: #919191;
+    color: white;
+    border-radius: 5px;
+}
+
 .bar__friends__avatar {
     border-radius: 5px;
     display: inline-block;
 }
 .bar__friends__name {
     padding-left: 10px;
-    display: inline-block;
 
     font-family: Lato;
     font-style: normal;
